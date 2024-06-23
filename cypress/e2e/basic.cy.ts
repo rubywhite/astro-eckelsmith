@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Rubywhite');
+    .contains('Ruby White');
   })
   it('renders the image', () => {
     cy.get('img')
